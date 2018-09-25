@@ -17,6 +17,7 @@ gem "pgcli-rails"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.1"
 gem "sass-rails"
+gem 'devise_token_auth'
 gem "sidekiq", ">= 4.2.0"
 gem "turbolinks", ">= 2.5.2"
 gem "foreman", "0.85.0"
