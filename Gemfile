@@ -17,7 +17,8 @@ gem "pgcli-rails"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.1"
 gem "sass-rails"
-gem 'devise_token_auth'
+gem "devise_token_auth" 
+gem "omniauth-google-oauth2", "~> 0.5.3" # Google auth : https://gist.github.com/SumitGA/97d77c39be5c370c906972e14e809cdd
 gem "sidekiq", ">= 4.2.0"
 gem "turbolinks", ">= 2.5.2"
 gem "foreman", "0.85.0"
