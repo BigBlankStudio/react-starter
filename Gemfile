@@ -19,6 +19,7 @@ gem "rails", "~> 5.2.1"
 gem "sass-rails"
 gem "sidekiq", ">= 4.2.0"
 gem "turbolinks", ">= 2.5.2"
+gem "foreman", "0.85.0"
 
 group :production, :staging do
   gem "postmark-rails"
