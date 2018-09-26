@@ -4,7 +4,6 @@
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
 
-
   OmniAuth.config.logger = Rails.logger
 
   Rails.application.config.middleware.use OmniAuth::Builder do

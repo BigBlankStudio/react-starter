@@ -30,7 +30,7 @@ class App extends Component {
     console.log(google_response)
     console.log(requestOptions)
 
-    return fetch('/auth/google_oauth2/callback', requestOptions)
+    return fetch('/auth/request', requestOptions)
       .then(response => {
         // Cookie.set('accesstoken', response.headers.get('access-token'), {
         //   expires: 7
